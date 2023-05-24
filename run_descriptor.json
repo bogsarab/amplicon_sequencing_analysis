@@ -1,0 +1,22 @@
+{
+  "run_steps": {
+    "run_preprocess": "False",
+    "run_analysis": "True",
+    "run_indel_analysis": "False"
+  },
+  "barcodes": {
+    "CGATGT": "REV1_ab",
+    "CAGTAC": "REV1_c",
+    "TGACCA": "MSH2_ab",
+    "TTAGGC": "MSH2_c"
+  },
+  "primers":{
+    "forward": "ACAGCTTGGA",
+    "reverse": "TCTGCCCACTGACGGGC"
+  },
+  "samples": ["REV1_ab", "REV1_c", "MSH2_ab", "MSH2_c"],
+  "ref_seq": "ATGTCATGGCTTTAGAAGCTTCACCCACCANAGCCTTGTCTYGCCAGAATGCNGGTCAGTTTGAATTCGATTAGGCTCCGAT",
+  "original_seq": "GGGTCTTCGAGAAGACCT",
+  "possible_bases":"ACGTRYSWKMBN"
+} 
+

@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "amplicon_seq_analysis"
+version = "0.1.0"
+description = ""
+authors = ["Bognár Sarolta <sarolta.1999.b@gmail.com>"]
+readme = "README.md"
+packages = [{include = "amplicon_seq"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+biopython = "^1.81"
+pydentic = "^0.0.1.dev3"
+pydantic = {extras = ["dotenv"], version = "^1.10.7"}
+seaborn = "^0.12.2"
+pandas = "^2.0.1"
+matplotlib = "^3.7.1"
+regex = "^2023.5.5"
+logomaker = "^0.8"
+seqlogo = "^5.29.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
